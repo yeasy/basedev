@@ -1,6 +1,19 @@
 # devbase
 Docker image with basic development environment.
 
+## Usage
+The docker image is auto built at [https://registry.hub.docker.com/u/yeasy/devbase/](https://registry.hub.docker.com/u/yeasy/devbase/).
+
+### In your Dockerfile
+```sh
+FROM yeasy/devbase:latest
+```
+
+### For test
+```sh
+$ docker run -it yeasy/devbase:latest bash
+```
+
 ## Base
 The image is based on Ubuntu 14.04 LTS.
 
@@ -22,17 +35,3 @@ Change to [http://mirrors.aliyun.com/pypi/simple](http://mirrors.aliyun.com/pypi
 * pyflakes
 * python2.7-dev
 * python-pip
-
-
-## Usage
-
-### In your Dockerfile
-```sh
-FROM yeasy/devbase:latest
-
-```
-
-### For test
-```sh
-$ docker run -it yeasy/devbase:latest bash
-```
