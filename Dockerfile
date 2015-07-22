@@ -18,7 +18,7 @@ RUN mkdir ~/.pip/ \
 # install necessary packages
 RUN apt-get update \
         && apt-get install  -y --no-install-recommends \
-            build-essential git pep8 pyflakes python2.7-dev python-pip python-setuptools \
+            build-essential curl git pep8 pyflakes python2.7-dev python-pip python-setuptools \
         && rm -rf /var/cache/apt
 
 # install gosu for easy step-down from root
