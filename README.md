@@ -36,9 +36,9 @@ Change to [http://mirrors.aliyun.com](http://mirrors.aliyun.com).
 Change to [http://mirrors.aliyun.com/pypi/simple](http://mirrors.aliyun.com/pypi/simple).
 
 ## install packages
-* [gosu](https://github.com/tianon/gosu)
 * build-essential
 * git
+* [gosu](https://github.com/tianon/gosu)
 * pep8
 * pyflakes
 * python2.7-dev
