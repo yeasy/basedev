@@ -6,14 +6,14 @@ The docker image is auto built at [https://registry.hub.docker.com/u/yeasy/devba
 
 * Pure Python environment: use the `:python` tag
 
-### In your Dockerfile
+### In Dockerfile
 ```sh
 FROM yeasy/devbase:latest
 ```
 
-### For test
+### Local Run
 ```sh
-$ docker run -it yeasy/devbase:latest bash
+$ docker run --rm -it yeasy/devbase:latest bash
 ```
 
 ## Base
