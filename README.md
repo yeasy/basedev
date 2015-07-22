@@ -37,7 +37,7 @@ Change to [http://mirrors.aliyun.com/pypi/simple](http://mirrors.aliyun.com/pypi
 
 ## install packages
 * [gosu](https://github.com/tianon/gosu)
-* curl
+* build-essential
 * git
 * pep8
 * pyflakes
