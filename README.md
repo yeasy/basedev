@@ -37,6 +37,7 @@ Change to [http://mirrors.aliyun.com/pypi/simple](http://mirrors.aliyun.com/pypi
 
 ## Install packages
 * build-essential
+* curl
 * git
 * [gosu](https://github.com/tianon/gosu)
 * pep8
