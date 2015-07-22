@@ -30,8 +30,8 @@ Change to [http://mirrors.aliyun.com/pypi/simple](http://mirrors.aliyun.com/pypi
 * [gosu](https://github.com/tianon/gosu)
 * curl
 * git
-* libzmq3-dev
 * pep8
 * pyflakes
 * python2.7-dev
 * python-pip
+* python-setuptools
