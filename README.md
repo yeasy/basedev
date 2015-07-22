@@ -27,15 +27,15 @@ $ docker run --rm -it yeasy/devbase:latest bash
 The image is based on Ubuntu 14.04 LTS.
 
 # What has been changed?
-This image will install necessary development environment, to be a good base for dev/test.
+This image will make useful configuration, and install necessary development tools.
 
-## update apt mirror
+## Update apt mirror
 Change to [http://mirrors.aliyun.com](http://mirrors.aliyun.com).
 
-## update pypi mirror
+## Update pypi mirror
 Change to [http://mirrors.aliyun.com/pypi/simple](http://mirrors.aliyun.com/pypi/simple).
 
-## install packages
+## Install packages
 * build-essential
 * git
 * [gosu](https://github.com/tianon/gosu)
