@@ -4,6 +4,8 @@ Docker image with basic development environment.
 ## Usage
 The docker image is auto built at [https://registry.hub.docker.com/u/yeasy/devbase/](https://registry.hub.docker.com/u/yeasy/devbase/).
 
+* Pure Python environment: use the `:python` tag
+
 ### In your Dockerfile
 ```sh
 FROM yeasy/devbase:latest
