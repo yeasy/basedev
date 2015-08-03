@@ -7,6 +7,10 @@ MAINTAINER Baohua Yang
 ENV DEBIAN_FRONTEND noninteractive
 ENV TZ Asia/Shanghai
 
+# add more DNS
+echo "nameserver 114.114.114.114" >> /etc/resolve.conf
+
+
 # update the apt mirror
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 
@@ -18,7 +22,7 @@ RUN mkdir ~/.pip/ \
 # install necessary packages
 RUN apt-get update \
         && apt-get install  -y --no-install-recommends \
-            build-essential curl git pep8 pyflakes python2.7-dev python-pip python-setuptools \
+            build-essential curl git \
         && rm -rf /var/cache/apt
 
 # install gosu for easy step-down from root
