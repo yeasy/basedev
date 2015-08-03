@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV TZ Asia/Shanghai
 
 # add more DNS
-echo "nameserver 114.114.114.114" >> /etc/resolve.conf
+RUN echo "nameserver 114.114.114.114" >> /etc/resolv.conf
 
 
 # update the apt mirror
