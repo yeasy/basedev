@@ -29,6 +29,9 @@ The image is based on Ubuntu 14.04 LTS.
 # What has been changed?
 This image will make useful configuration, and install necessary development tools.
 
+## Add more DNS
+Add `114.114.114.114` as one dns server entry.
+
 ## Update apt mirror
 Change to [http://mirrors.aliyun.com](http://mirrors.aliyun.com).
 

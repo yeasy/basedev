@@ -10,6 +10,9 @@ ENV TZ Asia/Shanghai
 # update the apt mirror
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 
+# add more DNS
+echo "nameserver 114.114.114.114" >> /etc/resolve.conf
+
 # update the pypi mirror
 RUN mkdir ~/.pip/ \
         && echo "[global]" > ~/.pip/pip.conf \
