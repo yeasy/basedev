@@ -12,6 +12,7 @@ RUN echo "nameserver 114.114.114.114" >> /etc/resolv.conf
 
 
 # update the apt mirror
+RUN cp /etc/apt/sources.list /etc/apt/sources.list.d/official.list
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 
 # update the pypi mirror
